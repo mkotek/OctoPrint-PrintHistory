@@ -15,7 +15,7 @@ $(function() {
 
         self.spool_inventory = ko.observableArray([]);
         self.spool_inventory_base = ko.observableArray([]);
-        self.availableCurrencies = ko.observableArray(['$', '€', '£']);
+        self.availableCurrencies = ko.observableArray(['$', '€', '£', 'PLN']);
 
         self.itemForEditing = ko.observable();
 
